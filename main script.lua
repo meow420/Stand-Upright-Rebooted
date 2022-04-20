@@ -3,8 +3,6 @@ getgenv().autoStand = false;
 getgenv().useChargedArrows = false;
 getgenv().standItemFarm = false;
 
---ts:Create(game.Players.LocalPlayer.Character.HumanoidRootPart,TweenInfo.new(1),{["CFrame"]=workspace.Items:FindFirstChild("Stand Arrow")})
-
 --// Services
 local TweenService = game:GetService("TweenService")
 
